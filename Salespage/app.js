@@ -86,8 +86,8 @@ const Dubai ={
     cookiesPerHour: [],
     getCookies: function() {
         for(let i = 0; i < this.hoursOfOperation.length; i++) {
-            console.log('seattle avg cookies/sale', this.avg);
-            console.log('seattle avg customers/hour', this.customersPerHour());
+            console.log('Dubai avg cookies/sale', this.avg);
+            console.log('Dubai avg customers/hour', this.customersPerHour());
             this.cookiesPerHour.push(Math.ceil(this.avg * this.customersPerHour()));
         }
         return this.cookiesPerHour;
@@ -117,8 +117,8 @@ const Paris ={
     cookiesPerHour: [],
     getCookies: function() {
         for(let i = 0; i < this.hoursOfOperation.length; i++) {
-            console.log('seattle avg cookies/sale', this.avg);
-            console.log('seattle avg customers/hour', this.customersPerHour());
+            console.log('Paris avg cookies/sale', this.avg);
+            console.log('Paris avg customers/hour', this.customersPerHour());
             this.cookiesPerHour.push(Math.ceil(this.avg * this.customersPerHour()));
         }
         return this.cookiesPerHour;
@@ -147,8 +147,8 @@ const Lima ={
     cookiesPerHour: [],
     getCookies: function() {
         for(let i = 0; i < this.hoursOfOperation.length; i++) {
-            console.log('seattle avg cookies/sale', this.avg);
-            console.log('seattle avg customers/hour', this.customersPerHour());
+            console.log('Lima avg cookies/sale', this.avg);
+            console.log('Lima avg customers/hour', this.customersPerHour());
             this.cookiesPerHour.push(Math.ceil(this.avg * this.customersPerHour()));
         }
         return this.cookiesPerHour;
