@@ -5,6 +5,7 @@ function getRandom(max, min) {
     
 }
 
+
 const seattle = {
     min: 23,
     max: 65,
@@ -54,8 +55,8 @@ const Tokyo ={
     cookiesPerHour: [],
     getCookies: function() {
         for(let i = 0; i < this.hoursOfOperation.length; i++) {
-            console.log('seattle avg cookies/sale', this.avg);
-            console.log('seattle avg customers/hour', this.customersPerHour());
+            console.log('Tokyo avg cookies/sale', this.avg);
+            console.log('Tokyo avg customers/hour', this.customersPerHour());
             this.cookiesPerHour.push(Math.ceil(this.avg * this.customersPerHour()));
         }
         return this.cookiesPerHour;
