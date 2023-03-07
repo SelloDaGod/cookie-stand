@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salmon Cookies Salespage</title>
     <style>
+        table,
+        td,
+        th{ border: 5px solid black;
+
+        }
         .flex-box {
             display: flex;
             flex-wrap: nowrap;
@@ -32,50 +37,75 @@
             padding: 6px;
             color: black;
         }
+        tr {
+            position:relative
+            left: 20px;
+        }
     </style>
 </head>
 
 <body>
     <div class="nav">
         <a href="../Homepage/Index.html">Homepage</a>
-
+        
     </div>
     <div class="flex-box">
         <div>
-            <ul class="output">
-                <h2>Seattle</h2>
-                <li></li>
-            </ul>
+            <Table style="border: 5px;border-style: solid;">
+                <tr>
+                    <th></th>
+                    <th>6am</th>
+                    <th>7am</th>
+                    <th>8am</th>
+                    <th>9am</th>
+                    <th>10am</th>
+                    <th>11am</th>
+                    <th>12am</th>
+                    <th>1pm</th>
+                    <th>2pm</th>
+                    <th>3pm</th>
+                    <th>4pm</th>
+                    <th>5pm</th>
+                    <th>6pm</th>
+                    <th>7pm</th>
+        
+        
+                </tr>
+                <tr class="output">
+                    <td>Seattle</td>
+                    
+                </tr>
+            </div>
+            
+            
+            
+            <div>
+                <tr class="output2">
+                    <td>Tokyo</td>
+                    
+                </tr>
+            </div>
+            <div>
+                <tr class="output3">
+                    <td>Dubai</td>
+                    
+                </tr>
+            </div>
+            <div>
+                <tr class="output4">
+                    <td>Paris</td>
+                    
+                </tr>
+            </div>
+            <div>
+                <tr class="output5">
+                    <td>Lima</td>
+                    
+                </tr>
+            </div>
         </div>
-
-
-
-        <div>
-            <ul class="output2">
-                <h2>Tokyo</h2>
-                <li></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="output3">
-                <h2>Dubai</h2>
-                <li></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="output4">
-                <h2>Paris</h2>
-                <li></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="output5">
-                <h2>Lima</h2>
-                <li></li>
-            </ul>
-        </div>
-    </div>
-
+    </Table>
+        
     </div>
 </body>
 <script src="app.js"></script>
