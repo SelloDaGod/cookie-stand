@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../AboutMe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cookie-stand"
+	}
+}
